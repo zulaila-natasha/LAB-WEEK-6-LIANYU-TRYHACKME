@@ -1,1 +1,15 @@
+LAB WEEK 6 LIANYU TRYHACKME
 
+Step 1: Environment Preparation & VPN Setup
+ 
+sudo apt update && sudo apt install openvpn -y
+
+•	sudo: Runs the command with administrative (root) privileges.
+
+•	apt update: Refreshes the local package index to ensure the system knows about the latest versions of available software.
+
+•	&&: A logical operator that tells the terminal to run the second command only if the first one finishes successfully.
+
+•	apt install openvpn: Downloads and installs the OpenVPN client, which is the industry standard for connecting to remote lab environments.
+
+•	-y: Automatically answers "yes" to any prompts, allowing for an unattended installation.
